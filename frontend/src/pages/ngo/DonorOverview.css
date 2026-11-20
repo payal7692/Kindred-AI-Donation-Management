@@ -1,0 +1,15 @@
+.quick-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  margin-top: 10px;
+  border: 1px solid #ece7dc;
+  border-radius: 14px;
+  text-decoration: none;
+  color: #173f2b;
+  transition: background 0.2s, transform 0.2s;
+}
+.quick-row:hover { background: #f3f7f4; transform: translateX(4px); }
+.quick-row strong { display: block; }
+.quick-row small { color: #6b7280; }

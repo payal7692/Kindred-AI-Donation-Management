@@ -1,0 +1,360 @@
+
+.ngo-staff-page {
+  width: 100%;
+}
+
+.ngo-staff-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.ngo-staff-stat {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #ece7dc;
+  border-radius: 14px;
+}
+
+.ngo-staff-stat span {
+  display: block;
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.ngo-staff-stat strong {
+  color: #173f2b;
+  font-size: 25px;
+}
+
+.staff-stat-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #e8f2eb;
+  color: #173f2b;
+}
+
+.staff-active-icon {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.staff-inactive-icon {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.ngo-staff-panel {
+  margin-top: 20px;
+}
+
+.ngo-staff-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ngo-staff-heading h3 {
+  margin: 0 0 5px;
+  color: #173f2b;
+}
+
+.ngo-staff-heading .muted {
+  margin: 0;
+}
+
+.staff-add-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 9px;
+  background: #173f2b;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.staff-add-btn:hover {
+  background: #1f5a3c;
+}
+
+.ngo-staff-form {
+  margin-top: 22px;
+  padding: 20px;
+  border: 1px solid #d9e4dc;
+  border-radius: 13px;
+  background: #f8fbf8;
+}
+
+.ngo-staff-form h3 {
+  margin: 0 0 16px;
+  color: #173f2b;
+}
+
+.staff-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.staff-field label {
+  display: block;
+  margin-bottom: 6px;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.staff-field input,
+.staff-field select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px 12px;
+  border: 1.5px solid #d9e4dc;
+  border-radius: 9px;
+  background: #fff;
+  font-size: 14px;
+}
+
+.staff-field input:focus,
+.staff-field select:focus {
+  outline: none;
+  border-color: #173f2b;
+}
+
+.staff-error {
+  color: #dc2626;
+  font-size: 13px;
+  margin: 12px 0 0;
+}
+
+.staff-form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 17px;
+}
+
+.staff-cancel-btn {
+  padding: 10px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 9px;
+  background: #fff;
+  color: #374151;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ngo-staff-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 22px 0 18px;
+  flex-wrap: wrap;
+}
+
+.staff-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1.5px solid #d9e4dc;
+  border-radius: 10px;
+  background: #f6faf7;
+  color: #6b7280;
+}
+
+.staff-search input {
+  width: 220px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.staff-filter {
+  padding: 10px 13px;
+  border: 1.5px solid #d9e4dc;
+  border-radius: 10px;
+  background: #fff;
+  color: #374151;
+  font-size: 13px;
+}
+
+.staff-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.ngo-staff-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.ngo-staff-table th {
+  padding: 13px 12px;
+  background: #f3f7f3;
+  color: #526157;
+  font-size: 12px;
+}
+
+.ngo-staff-table td {
+  padding: 14px 12px;
+  border-bottom: 1px solid #ecefe9;
+  color: #374151;
+  font-size: 13px;
+}
+
+.ngo-staff-table tbody tr:hover {
+  background: #fafcf9;
+}
+
+.staff-member-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.staff-avatar {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: #e8f2eb;
+  color: #173f2b;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.staff-member-info strong {
+  display: block;
+  color: #173f2b;
+}
+
+.staff-member-info small {
+  display: block;
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 11px;
+}
+
+.staff-role {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 7px;
+  background: #f1f5f1;
+  color: #315d40;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.staff-status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.staff-status-active {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.staff-status-inactive {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.staff-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.staff-toggle-btn {
+  padding: 7px 10px;
+  border: 1px solid #d9e4dc;
+  border-radius: 7px;
+  background: #fff;
+  color: #315d40;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.staff-delete-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 31px;
+  border: 1px solid #fecaca;
+  border-radius: 7px;
+  background: #fff5f5;
+  color: #b91c1c;
+  cursor: pointer;
+}
+
+.staff-empty {
+  padding: 40px 15px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.staff-empty h3 {
+  margin: 10px 0 5px;
+  color: #173f2b;
+}
+
+.staff-empty p {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 900px) {
+  .ngo-staff-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .ngo-staff-stats,
+  .staff-form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .staff-search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .staff-search input {
+    width: 100%;
+  }
+
+  .staff-filter {
+    width: 100%;
+  }
+}

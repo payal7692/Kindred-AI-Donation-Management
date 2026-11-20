@@ -1,0 +1,309 @@
+
+.admin-matches-page {
+  width: 100%;
+  color: #173f2b;
+}
+
+.admin-matches-heading {
+  margin-bottom: 25px;
+}
+
+.admin-matches-kicker {
+  color: #6d927b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.admin-matches-heading h1 {
+  font-size: 29px;
+  margin: 7px 0;
+  color: #173f2b;
+}
+
+.admin-matches-heading p,
+.admin-matches-toolbar p {
+  color: #829087;
+  font-size: 13px;
+  margin: 0;
+}
+
+.admin-match-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 25px;
+}
+
+.admin-match-stat {
+  background: #fff;
+  border: 1px solid #e7eee8;
+  border-radius: 13px;
+  padding: 19px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.admin-match-icon {
+  width: 43px;
+  height: 43px;
+  border-radius: 11px;
+  background: #eaf3ed;
+  color: #28734a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-match-icon.matched {
+  background: #e4f5e9;
+  color: #27834a;
+}
+
+.admin-match-icon.accepted {
+  background: #e8f0ff;
+  color: #4776bd;
+}
+
+.admin-match-icon.pending {
+  background: #fff3df;
+  color: #bd8124;
+}
+
+.admin-match-stat span {
+  color: #829087;
+  font-size: 12px;
+}
+
+.admin-match-stat h2 {
+  font-size: 24px;
+  margin: 4px 0 0;
+  color: #173f2b;
+}
+
+.admin-matches-panel {
+  background: #fff;
+  border: 1px solid #e7eee8;
+  border-radius: 14px;
+  padding: 22px;
+  overflow: hidden;
+}
+
+.admin-matches-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.admin-matches-toolbar h2 {
+  font-size: 18px;
+  margin: 0 0 5px;
+  color: #173f2b;
+}
+
+.admin-matches-search {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  background: #f7faf7;
+  border: 1px solid #e4ebe5;
+  border-radius: 9px;
+  padding: 10px 12px;
+  color: #829087;
+  width: 290px;
+}
+
+.admin-matches-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  color: #173f2b;
+  font-size: 12px;
+}
+
+.admin-match-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  margin-bottom: 18px;
+}
+
+.admin-match-filters button {
+  border: 1px solid #e3ebe4;
+  background: #fff;
+  color: #68776d;
+  border-radius: 20px;
+  padding: 8px 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.admin-match-filters button.active {
+  background: #173f2b;
+  color: #fff;
+  border-color: #173f2b;
+}
+
+.admin-matches-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.admin-matches-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1100px;
+  text-align: left;
+}
+
+.admin-matches-table th {
+  background: #f5f8f5;
+  color: #718078;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 14px 12px;
+  border-bottom: 1px solid #e7eee8;
+  white-space: nowrap;
+}
+
+.admin-matches-table td {
+  padding: 15px 12px;
+  font-size: 12px;
+  color: #53645a;
+  border-bottom: 1px solid #edf1ed;
+  white-space: nowrap;
+}
+
+.admin-match-id {
+  color: #28734a !important;
+  font-weight: 700;
+}
+
+.admin-match-ngo {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #365744;
+}
+
+.admin-match-ngo svg {
+  color: #91a397;
+}
+
+.admin-match-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.admin-score-track {
+  width: 55px;
+  height: 6px;
+  border-radius: 10px;
+  background: #e9eee9;
+  overflow: hidden;
+}
+
+.admin-score-fill {
+  height: 100%;
+  background: #328455;
+  border-radius: 10px;
+}
+
+.admin-match-score strong {
+  color: #28734a;
+  font-size: 11px;
+}
+
+.admin-match-status {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 6px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  background: #f0f2f0;
+  color: #68776d;
+}
+
+.admin-match-status.matched {
+  background: #e4f5e9;
+  color: #27834a;
+}
+
+.admin-match-status.accepted {
+  background: #e8f0ff;
+  color: #4776bd;
+}
+
+.admin-match-status.pending {
+  background: #fff3df;
+  color: #b77b20;
+}
+
+.admin-match-status.rejected {
+  background: #ffe8e8;
+  color: #c13d3d;
+}
+
+.admin-match-status-select {
+  border: 1px solid #e0e9e1;
+  border-radius: 7px;
+  padding: 7px 8px;
+  background: #fff;
+  color: #365744;
+  font-size: 11px;
+  outline: none;
+  cursor: pointer;
+}
+
+.admin-matches-empty {
+  text-align: center !important;
+  padding: 35px !important;
+  color: #829087 !important;
+}
+
+.admin-matches-empty svg {
+  margin: auto;
+}
+
+.admin-matches-empty p {
+  margin: 8px 0 0;
+}
+
+.admin-matches-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  color: #829087;
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  .admin-match-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .admin-matches-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .admin-matches-search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 520px) {
+  .admin-match-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-matches-panel {
+    padding: 14px;
+  }
+}

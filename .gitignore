@@ -1,0 +1,21 @@
+.venv/
+venv/
+backend/venv/
+backend/.venv/
+frontend/node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+dist/
+build/
+backend/runs/
+
+# Local database files
+*.db
+*.sqlite3
+
+
+# Training datasets
+backend/dataset/

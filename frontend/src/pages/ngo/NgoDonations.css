@@ -1,0 +1,264 @@
+.ngo-donations-page {
+  width: 100%;
+}
+
+.ngo-donation-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.ngo-donation-stat {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 18px;
+  background: #fff;
+  border: 1px solid #ece7dc;
+  border-radius: 14px;
+}
+
+.ngo-donation-stat span {
+  display: block;
+  color: #6b7280;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.ngo-donation-stat strong {
+  display: block;
+  color: #173f2b;
+  font-size: 25px;
+}
+
+.ngo-stat-icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: #e8f2eb;
+  color: #173f2b;
+  flex-shrink: 0;
+}
+
+.pending-icon {
+  background: #fff3dc;
+  color: #a16207;
+}
+
+.accepted-icon {
+  background: #e8efff;
+  color: #3158a5;
+}
+
+.received-icon {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.ngo-donation-list {
+  margin-top: 20px;
+}
+
+.ngo-donation-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.ngo-donation-heading h3 {
+  margin: 0 0 5px;
+  color: #173f2b;
+}
+
+.ngo-donation-heading .muted {
+  margin: 0;
+}
+
+.ngo-donation-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  background: #f6faf7;
+  border: 1.5px solid #d9e4dc;
+  border-radius: 10px;
+  color: #6b7280;
+}
+
+.ngo-donation-search input {
+  width: 190px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+}
+
+.ngo-donation-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 20px 0;
+}
+
+.ngo-filter-btn {
+  padding: 8px 17px;
+  border: 1.5px solid #d9e4dc;
+  border-radius: 999px;
+  background: #fff;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ngo-filter-btn.active {
+  background: #173f2b;
+  border-color: #173f2b;
+  color: #fff;
+}
+
+.ngo-donation-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.ngo-donation-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 780px;
+}
+
+.ngo-donation-table th {
+  padding: 13px 12px;
+  background: #f3f7f3;
+  color: #526157;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.ngo-donation-table td {
+  padding: 15px 12px;
+  border-bottom: 1px solid #ecefe9;
+  color: #374151;
+  font-size: 13px;
+}
+
+.ngo-donation-table tbody tr:hover {
+  background: #fafcf9;
+}
+
+.ngo-donation-id {
+  color: #173f2b !important;
+  font-weight: 700;
+}
+
+.ngo-item-category {
+  display: block;
+  margin-top: 4px;
+  color: #89928b;
+  font-size: 11px;
+}
+
+.ngo-status {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.ngo-status-pending {
+  background: #fff3dc;
+  color: #a16207;
+}
+
+.ngo-status-accepted {
+  background: #e8efff;
+  color: #3158a5;
+}
+
+.ngo-status-received {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.ngo-action-btn {
+  padding: 7px 12px;
+  border: none;
+  border-radius: 8px;
+  background: #173f2b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.ngo-action-btn:hover {
+  background: #1f5a3c;
+}
+
+.received-action {
+  background: #e8f2eb;
+  color: #173f2b;
+}
+
+.received-action:hover {
+  background: #d5e8da;
+}
+
+.ngo-completed-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #16803d;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ngo-donation-empty {
+  padding: 40px 15px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.ngo-donation-empty h3 {
+  margin: 10px 0 5px;
+  color: #173f2b;
+}
+
+.ngo-donation-empty p {
+  margin: 0;
+  font-size: 13px;
+}
+
+@media (max-width: 1100px) {
+  .ngo-donation-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .ngo-donation-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .ngo-donation-search {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .ngo-donation-search input {
+    width: 100%;
+  }
+}
